@@ -1,0 +1,356 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background-color: #e1dbdb;
+    font-family: 'Kanit', sans-serif;
+}
+
+h2{
+    font-size: 4em;
+}
+p{
+    font-size: 1.35em;
+}
+ul{ 
+    list-style: none;
+}
+li{
+    font-size: 1.9em;
+}
+.container{
+    margin: auto;
+}
+
+
+/*-------------------HEADER-------------------*/
+
+.navbar {
+    background-color: #1a1a1a;
+    box-shadow: 5px 5px 5px #DDDDDD;
+    font-size: 1.5em;
+}
+
+.navbar a {
+    color: #F8F8F8;
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.5em;
+}
+
+.navbar a:hover {
+    background-color: #b9b9b8;
+    color: #402F36;
+    border-radius: 15px;
+}
+
+.navbar a:active {
+    background-color: #402F36;
+    color: #C2FCC4;
+}
+
+.navbar-toggler-icon {
+    background-image: url(img/botonhamburguesa.png);
+}
+
+.navbar-toggler-icon:active {
+    background-image: url(img/botonhamburguesacierre.png);
+}
+
+.bus{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+/*-------------------INDEX-------------------*/
+
+#banners img{
+    margin-top: 50px;
+}
+.img-biografia{
+    padding-top: 50px;
+}
+.text-biografia{
+    text-align: center;
+    padding: 75px 12px;
+}
+#novedades .container{
+    text-align: center;
+}
+#novedades h3{
+    padding-top: 10px;
+    font-size: 2.3em;
+}
+#novedades p{
+    color: blue;
+    padding-top: 5px;
+    font-size: 2em;
+    font-weight: 650;
+}
+#novedades{
+    margin: 30px,auto;
+}
+#novedades a{
+    color: black;
+    padding-top: 30px;
+    font-size: 2.3em;
+}
+#novedades a:hover{
+    color: blue;
+}
+#novedades .card{
+    background-color: rgba(255, 255, 255, 0.514);
+    padding: 0px 0px;
+    margin: 90px 10px;
+    border-radius: 10px;
+}
+#video{
+    margin: 0px 10px;
+    margin-bottom: 40px;
+}
+
+/*-------------------CONTACTO-------------------*/
+.seccionconpadding{
+    padding: 30px;
+}
+.paginaconpadding {
+    padding: 20px;
+    margin-top: 70px;
+    background-color: grey;
+}
+.contactosections {
+    margin-top: 30px;
+}
+.contacto h3{
+    margin-top: 30px;
+}
+.contacto h2{
+    box-shadow: 4px 4px 2px 1px #DDDDDD;
+}
+.ele{
+    padding-top: 30px;
+}
+.mapa{
+    display: flex;
+    justify-content: center;
+}
+.cont{
+    display: flex;
+}
+.img-local{
+    padding: 30px 0px;
+}
+.formu{
+    font-size: 1.3em;
+}
+
+/*-------------------PRODUCTO-------------------*/
+.pag{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 100px;
+    padding-left: 20px;
+}
+.pag h2{
+    font-size: 6em;
+}
+.linkproducto{
+    text-decoration: none;
+}
+.card{
+    margin-top: 50px;
+}
+.color{
+    color: blue;
+    font-size: 3.5em;
+}
+.pag a{
+    color: black;
+    font-size: 2em;
+}
+.medio a{
+    font-size: 1em;
+    padding-left: 85px;
+}
+a:hover{
+    color: blue;
+}
+.dropdown{
+    margin: 20px;
+}
+.prod-dest{
+    margin-top: 150px;
+    justify-content: center;
+    
+}
+.tit-prod{
+    padding-left: 50px;
+}
+.prod-dest h2{
+    padding-top: 10px;
+}
+
+.margin1{
+    margin-left: 50px;
+}
+.texto{
+    padding-top: 150px;
+   }
+
+#card img{
+padding-top: 50px;
+}
+/*-------------------SALE-------------------*/
+
+.estilo{
+    margin-top: 50px;
+}
+
+/*-------------------GALERIA-------------------*/
+.paginacion{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 35px;
+}
+.paginacion a{
+    font-size: 1em;
+}
+.productos{
+    padding-top: 80px;
+}
+.productos h2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.productos hr{
+    border-color: black;
+}
+#cuerpoespecificaciones {
+    margin-top: 50px;
+}
+
+/*-------------------FOOTER-------------------*/
+
+footer {
+    background-color: #402F36;
+    color: white;
+    height: 25px;
+    box-shadow: 2px  2px #DDDDDD;
+}
+
+footer p {
+    float: right;
+    padding-right: 10px;
+    margin-top: 0px;
+}
+
+footer a {
+    float: right;
+    padding-right: 10px;
+}
+
+footer a:active {
+    color: #C2FCC4;
+}
+
+footer a:hover {
+    color: #C2FCC4;
+}
+.social{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+.boton{
+    padding-top: 10px;
+}
+.listafooter{
+    list-style: none;
+    font-size: 0.5em;
+}
+.titulofooter{
+    font-size: 2.3em;
+}
+ 
+/*-------------------MEDIA-------------------*/
+
+@media (min-width: 992px){
+    #biografia .container{
+        display: flex;
+        justify-content: center;
+    }
+    #biografia .text-biografia{
+        width: 60%;
+        max-height: 797px;
+        text-align: start;
+        padding: 80px 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+    #biografia .img-biografia{
+        width: 833px;
+        height: 797px;
+    }
+
+    #novedades .carta{
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    #producto .container{
+        display: flex;
+        justify-content: center;
+    }
+    #producto .text-producto{
+        text-align: start;
+        padding: 0px 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    #producto .img-producto{
+        width: 833px;
+        height: 797px;
+    }
+    #producto .botones{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        padding-left: 50px;
+        padding-top: 20px;
+    }
+    #producto .cantidades{
+        margin-right: 10px;
+    }
+    #producto h2{
+       padding-bottom: 40px;
+    }
+    #producto p{
+        padding-bottom: 40px;
+    }
+    #producto a{
+        font-size: 30px;
+        color: black;
+    }
+    .texto{
+        padding-top: 150px;
+       }
+}
